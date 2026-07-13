@@ -6,7 +6,7 @@ HTML, CSS, and JavaScript.
 
 ## Live site
 
-`[https://makzosoft.github.io/emmanuel-portfolio]`
+`[https://makzosoft.github.io/emmanuel-portfolio](https://makzosoft.github.io/emmanuel-portfolio)`
 
 ## Pages
 
