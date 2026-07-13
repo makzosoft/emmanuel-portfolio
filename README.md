@@ -45,15 +45,6 @@ portfolio/
     └── weather-cli-poster.jpg
 ```
 
-## Project preview videos
-
-Each project card plays a short, muted, looping animation on hover (tap on
-touch devices) instead of a static screenshot. These are original short demo
-clips built to match the site's own visual style, not real screen recordings
-of the projects, since Campus Connect, Grade Tracker, and the Weather CLI
-Widget are illustrative examples for this assignment. Swap the video files
-in `images/` with real screen recordings once the actual projects exist.
-
 ## Technical highlights
 
 - Semantic HTML5: `header`, `nav`, `main`, `section`, `article`, `footer`
