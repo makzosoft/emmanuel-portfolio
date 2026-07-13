@@ -4,9 +4,13 @@ COS 106 (Introduction to Web Technologies) term project — a responsive,
 multi page personal portfolio and academic planner built with plain
 HTML, CSS, and JavaScript.
 
-## Live site
+## Live Site
 
-`[https://makzosoft.github.io/emmanuel-portfolio](https://makzosoft.github.io/emmanuel-portfolio)`
+[View Live Website](https://makzosoft.github.io/emmanuel-portfolio/)
+
+## Source Code
+
+[View Source Code on GitHub](https://github.com/makzosoft/emmanuel-portfolio)
 
 ## Pages
 
