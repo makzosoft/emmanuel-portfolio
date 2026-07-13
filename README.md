@@ -7,7 +7,7 @@ HTML, CSS, and JavaScript.
 ## Live site
 
 Add your GitHub Pages link here once deployed, e.g.
-`https://<your-username>.github.io/<repo-name>/`
+`https://https://makzosoft.github.io/emmanuel-portfolio`
 
 ## Pages
 
