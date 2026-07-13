@@ -2,7 +2,7 @@
 
 COS 106 (Introduction to Web Technologies) term project — a responsive,
 multi page personal portfolio and academic planner built with plain
-HTML, CSS, and JavaScript (no frameworks or build tools required).
+HTML, CSS, and JavaScript.
 
 ## Live site
 
@@ -67,14 +67,3 @@ in `images/` with real screen recordings once the actual projects exist.
 - JavaScript: event handling, DOM manipulation, array based state for
   the planner, and full form validation (required fields, email format,
   digits only phone number)
-
-## Before submitting
-
-1. `index.html` already uses the real profile photo (`images/profile-photo.jpg`).
-   Swap it for an updated one any time by replacing that file.
-2. Update the project links in `projects.html` to real repository/demo URLs.
-3. Replace the demo videos in `images/` with real screen recordings once the
-   actual projects exist, if you would like.
-4. Push this folder to a public GitHub repository.
-5. Enable GitHub Pages (Settings → Pages → deploy from `main`) and copy
-   the generated link into the table above and your assignment submission.
