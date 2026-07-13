@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Opeolu | Software Engineering Student</title>
+<meta name="description" content="Portfolio and academic management site for Emmanuel Opeolu, Software Engineering student.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="tab-bar" aria-label="Primary navigation">
+    <div class="brand"><span class="dot-red">●</span><span class="dot-yellow">●</span><span class="dot-green">●</span>&nbsp;opeolu.dev</div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰ menu</button>
+    <ul class="nav-tabs">
+      <li><a href="index.html" class="active"><span class="tab-dot"></span>Home</a></li>
+      <li><a href="about.html"><span class="tab-dot"></span>About</a></li>
+      <li><a href="projects.html"><span class="tab-dot"></span>Projects</a></li>
+      <li><a href="planner.html"><span class="tab-dot"></span>Planner</a></li>
+      <li><a href="contact.html"><span class="tab-dot"></span>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="parallax-bg" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="reveal-up">
+        <p class="eyebrow">welcome</p>
+        <h1 id="heroTitle">Hi, I'm Emmanuel Opeolu.<br>I build things <span class="accent-fill">for the web.</span></h1>
+        <p class="lead">A Software Engineering student who enjoys turning coursework into shipped projects, including campus tools and small experiments in JavaScript and Python. This site doubles as my portfolio and my academic planner.</p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View projects</a>
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="terminal reveal-up delay-1">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">emmanuel@portfolio: ~</span>
+        </div>
+        <div class="terminal-body">
+          <div class="line reveal"><span class="prompt">$</span> <span class="cmd">whoami</span></div>
+          <div class="line reveal out">Emmanuel Opeolu</div>
+          <div class="line reveal"><span class="prompt">$</span> <span class="cmd">cat profile.json</span></div>
+          <div class="line reveal out"><span class="key">"program"</span>: <span class="val">"Software Engineering"</span></div>
+          <div class="line reveal out"><span class="key">"school"</span>: <span class="val">"MIVA Open University"</span></div>
+          <div class="line reveal out"><span class="key">"status"</span>: <span class="val">"open to internships"</span></div>
+          <div class="line reveal"><span class="prompt">$</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container reveal-up">
+      <p class="section-label">about me</p>
+      <h2 class="section-title">A quick introduction</h2>
+      <div class="hero-grid" style="align-items:center;">
+        <div style="display:flex; gap:20px; align-items:center;">
+          <div class="avatar-frame">
+            <img src="images/profile-photo.jpg" alt="Photo of Emmanuel Opeolu">
+          </div>
+          <div>
+            <p style="color:var(--text-dim); max-width:44ch;">I'm a Software Engineering student who likes clean interfaces and code that does what it says. Outside class, I'm usually deep in a side project, a football match, or a good playlist.</p>
+          </div>
+        </div>
+        <div class="chip-row">
+          <span class="chip blue">HTML5</span>
+          <span class="chip purple">CSS3</span>
+          <span class="chip green">JavaScript</span>
+          <span class="chip amber">Python</span>
+          <span class="chip blue">Git &amp; GitHub</span>
+        </div>
+      </div>
+      <div style="margin-top:32px;">
+        <a href="about.html" class="btn btn-ghost">Read full bio →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="reveal-up">
+        <p class="section-label">featured work</p>
+        <h2 class="section-title">A few things I've built</h2>
+        <p class="section-intro">Selected projects from coursework and personal practice. Full write ups are on the projects page.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal-up accent-coral">
+          <div class="media-wrap">
+            <video class="project-media" autoplay muted loop playsinline preload="auto" poster="images/campus-connect-poster.jpg" aria-label="Preview of the Campus Connect app">
+              <source src="images/campus-connect-demo.webm" type="video/webm">
+            <source src="images/campus-connect-demo.mp4" type="video/mp4">
+            </video>
+            <button type="button" class="preview-play-btn" aria-label="Play preview">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="preview-hint">Live preview</span>
+          </div>
+          <h3>Campus Connect</h3>
+          <p>Event and club discovery app for students, built with vanilla JS.</p>
+        </div>
+        <div class="card reveal-up delay-1 accent-emerald">
+          <div class="media-wrap">
+            <video class="project-media" autoplay muted loop playsinline preload="auto" poster="images/grade-tracker-poster.jpg" aria-label="Preview of the Grade Tracker app">
+              <source src="images/grade-tracker-demo.webm" type="video/webm">
+            <source src="images/grade-tracker-demo.mp4" type="video/mp4">
+            </video>
+            <button type="button" class="preview-play-btn" aria-label="Play preview">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="preview-hint">Live preview</span>
+          </div>
+          <h3>Grade Tracker</h3>
+          <p>A small tool that calculates GPA and visualises course trends.</p>
+        </div>
+        <div class="card reveal-up delay-2 accent-sky">
+          <div class="media-wrap">
+            <video class="project-media" autoplay muted loop playsinline preload="auto" poster="images/weather-cli-poster.jpg" aria-label="Preview of the Weather CLI widget">
+              <source src="images/weather-cli-demo.webm" type="video/webm">
+            <source src="images/weather-cli-demo.mp4" type="video/mp4">
+            </video>
+            <button type="button" class="preview-play-btn" aria-label="Play preview">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="preview-hint">Live preview</span>
+          </div>
+          <h3>Weather CLI Widget</h3>
+          <p>A weather lookup widget for the browser, styled like a terminal window.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container status-bar">
+    <span class="branch">main</span>
+    <span>© 2026 Emmanuel Opeolu. Built with HTML, CSS &amp; JavaScript</span>
+    <span>UTF-8</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Emmanuel Opeolu</title>
+<meta name="description" content="Selected projects by Emmanuel Opeolu, Software Engineering student.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="tab-bar" aria-label="Primary navigation">
+    <div class="brand"><span class="dot-red">●</span><span class="dot-yellow">●</span><span class="dot-green">●</span>&nbsp;opeolu.dev</div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰ menu</button>
+    <ul class="nav-tabs">
+      <li><a href="index.html"><span class="tab-dot"></span>Home</a></li>
+      <li><a href="about.html"><span class="tab-dot"></span>About</a></li>
+      <li><a href="projects.html" class="active"><span class="tab-dot"></span>Projects</a></li>
+      <li><a href="planner.html"><span class="tab-dot"></span>Planner</a></li>
+      <li><a href="contact.html"><span class="tab-dot"></span>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section style="padding-bottom:24px;">
+    <div class="container reveal-up">
+      <p class="section-label">projects</p>
+      <h1 class="section-title" style="font-size:clamp(28px,4vw,38px);">Things I've built</h1>
+      <p class="section-intro">A mix of coursework and personal projects. Repositories are simulated links for this academic exercise, so swap in real GitHub URLs before publishing.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container grid grid-3">
+      <article class="card reveal-up accent-coral">
+        <div class="media-wrap">
+          <video class="project-media" autoplay muted loop playsinline preload="auto" poster="images/campus-connect-poster.jpg" aria-label="Preview of the Campus Connect app interface">
+            <source src="images/campus-connect-demo.webm" type="video/webm">
+            <source src="images/campus-connect-demo.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="preview-play-btn" aria-label="Play preview">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="preview-hint">Live preview</span>
+        </div>
+        <h3>Campus Connect</h3>
+        <p>A web app that helps students discover campus events and clubs. Built with HTML, CSS, and vanilla JavaScript, with dynamic DOM rendering for event lists.</p>
+        <div class="project-links">
+          <a href="https://github.com/emmanuel-opeolu/campus-connect" target="_blank" rel="noopener">GitHub →</a>
+          <a href="#" target="_blank" rel="noopener">Live demo →</a>
+        </div>
+      </article>
+
+      <article class="card reveal-up delay-1 accent-emerald">
+        <div class="media-wrap">
+          <video class="project-media" autoplay muted loop playsinline preload="auto" poster="images/grade-tracker-poster.jpg" aria-label="Preview of the Grade Tracker charts">
+            <source src="images/grade-tracker-demo.webm" type="video/webm">
+            <source src="images/grade-tracker-demo.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="preview-play-btn" aria-label="Play preview">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="preview-hint">Live preview</span>
+        </div>
+        <h3>Grade Tracker</h3>
+        <p>A GPA calculator and course analytics tool. Takes grade input, computes weighted averages, and renders a simple trend chart using JavaScript arrays and functions.</p>
+        <div class="project-links">
+          <a href="https://github.com/emmanuel-opeolu/grade-tracker" target="_blank" rel="noopener">GitHub →</a>
+          <a href="#" target="_blank" rel="noopener">Live demo →</a>
+        </div>
+      </article>
+
+      <article class="card reveal-up delay-2 accent-sky">
+        <div class="media-wrap">
+          <video class="project-media" autoplay muted loop playsinline preload="auto" poster="images/weather-cli-poster.jpg" aria-label="Preview of the Weather CLI widget">
+            <source src="images/weather-cli-demo.webm" type="video/webm">
+            <source src="images/weather-cli-demo.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="preview-play-btn" aria-label="Play preview">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="preview-hint">Live preview</span>
+        </div>
+        <h3>Weather CLI Widget</h3>
+        <p>A weather lookup widget styled like a terminal window, demonstrating fetch requests, async functions, and dynamic content updates.</p>
+        <div class="project-links">
+          <a href="https://github.com/emmanuel-opeolu/weather-cli-widget" target="_blank" rel="noopener">GitHub →</a>
+          <a href="#" target="_blank" rel="noopener">Live demo →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container reveal-up">
+      <p class="section-label">project demo</p>
+      <h2 class="section-title">Full walkthrough</h2>
+      <p class="section-intro">The Campus Connect preview above with sound off and controls on, for a closer look at the interaction flow.</p>
+      <div class="terminal" style="max-width:720px;">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">campus connect demo</span>
+        </div>
+        <video class="demo-video" controls preload="none" poster="images/campus-connect-poster.jpg">
+          <source src="images/campus-connect-demo.webm" type="video/webm">
+            <source src="images/campus-connect-demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container status-bar">
+    <span class="branch">main</span>
+    <span>© 2026 Emmanuel Opeolu. Built with HTML, CSS &amp; JavaScript</span>
+    <span>UTF-8</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

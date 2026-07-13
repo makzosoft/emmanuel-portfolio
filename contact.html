@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Emmanuel Opeolu</title>
+<meta name="description" content="Get in touch with Emmanuel Opeolu.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="tab-bar" aria-label="Primary navigation">
+    <div class="brand"><span class="dot-red">●</span><span class="dot-yellow">●</span><span class="dot-green">●</span>&nbsp;opeolu.dev</div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰ menu</button>
+    <ul class="nav-tabs">
+      <li><a href="index.html"><span class="tab-dot"></span>Home</a></li>
+      <li><a href="about.html"><span class="tab-dot"></span>About</a></li>
+      <li><a href="projects.html"><span class="tab-dot"></span>Projects</a></li>
+      <li><a href="planner.html"><span class="tab-dot"></span>Planner</a></li>
+      <li><a href="contact.html" class="active"><span class="tab-dot"></span>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section style="padding-bottom:24px;">
+    <div class="container reveal-up">
+      <p class="section-label">contact</p>
+      <h1 class="section-title" style="font-size:clamp(28px,4vw,38px);">Let's talk</h1>
+      <p class="section-intro">Open to internships, collaborations, or just a chat about web development. Fill in the form and I'll get back to you.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container contact-wrap">
+      <form id="contactForm" novalidate class="reveal-up">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name">
+          <p class="error-msg" id="nameError"></p>
+        </div>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="text" id="email" name="email" placeholder="you@example.com">
+          <p class="error-msg" id="emailError"></p>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input type="text" id="phone" name="phone" placeholder="Digits only, e.g. 08012345678">
+          <p class="error-msg" id="phoneError"></p>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="What would you like to say?"></textarea>
+          <p class="error-msg" id="messageError"></p>
+        </div>
+
+        <button type="button" id="sendMessageBtn" class="btn btn-primary">Send message</button>
+
+        <div class="form-status" id="formStatus" role="status"></div>
+      </form>
+
+      <div class="contact-info reveal-up delay-1">
+        <div class="info-block">
+          <h3>Email</h3>
+          <p>o.emmanuel7765@miva.edu.ng</p>
+        </div>
+        <div class="info-block">
+          <h3>Location</h3>
+          <p>Lagos, Nigeria</p>
+        </div>
+        <div class="info-block">
+          <h3>Elsewhere</h3>
+          <ul>
+            <li><a href="https://github.com/emmanuel-opeolu" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/emmanuel-opeolu" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container status-bar">
+    <span class="branch">main</span>
+    <span>© 2026 Emmanuel Opeolu. Built with HTML, CSS &amp; JavaScript</span>
+    <span>UTF-8</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

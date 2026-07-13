@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121820"/>
+      <stop offset="100%" stop-color="#1A222C"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#61AFEF"/>
+      <stop offset="100%" stop-color="#C792EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="6 10" opacity="0.6"/>
+  <text x="200" y="228" font-family="'JetBrains Mono', monospace" font-size="120" font-weight="700" fill="#61AFEF" text-anchor="middle">EO</text>
+  <text x="200" y="330" font-family="'JetBrains Mono', monospace" font-size="16" fill="#8B98A5" text-anchor="middle">&lt;/ student&gt;</text>
+</svg>
